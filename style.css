@@ -1,0 +1,60 @@
+
+body {
+    background-color: #eeeeee;
+    font-family: Arial;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+    border: 1px solid gray;
+}
+
+#valorB, #valorC {
+    background-color: #dddddd;
+    padding: 12px;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: lightgray;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#cajaLineal {
+    background-color: #e4f2df;
+    border: 1px solid green;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#cajaAfin {
+    background-color: #f8e8d3;
+    border: 1px solid orange;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: 5px;
+}
+
+a {
+    color: blue;
+}
+
+hr {
+    margin-top: 15px;
+}
