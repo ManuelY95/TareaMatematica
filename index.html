@@ -11,9 +11,7 @@
     <h1>Clasificador de funciones</h1>
 
     <main>
-
         <p id="valorB">b = ?</p>
-
         <p id="valorC">c = ?</p>
 
         <button id="generar">Generar / Cambiar</button>
@@ -34,6 +32,15 @@
 
         <hr>
 
+        <h2>Gráfico de la función</h2>
+        <p id="estadoGrafico">
+            Genera los valores para mostrar el gráfico.
+        </p>
+
+        <div id="geogebra"></div>
+
+        <hr>
+
         <p>
             <strong>ENLACE:</strong>
             <a href="https://www.geogebra.org/classic" target="_blank">
@@ -42,11 +49,11 @@
         </p>
 
         <input type="file" id="archivo" accept=".ggb">
-
         <p id="nombreArchivo"></p>
 
     </main>
 
+    <script src="https://www.geogebra.org/apps/deployggb.js"></script>
     <script src="script.js"></script>
 
 </body>
