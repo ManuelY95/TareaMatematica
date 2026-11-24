@@ -1,0 +1,114 @@
+
+/* Define los colores generales de la página */
+body {
+    background-color: #eeecf5;
+    font-family: Arial;
+    color: #29243b;
+}
+
+/* Centra el título principal */
+h1 {
+    text-align: center;
+    color: #514078;
+}
+
+/* Da diseño al espacio principal */
+main {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+    border: 1px solid #c9c0df;
+}
+
+/* Da diseño a los espacios de los valores B y C */
+#valorB, #valorC {
+    background-color: #e5ddf5;
+    color: #49356f;
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #aa96d4;
+    border-radius: 5px;
+}
+
+/* Cambia la apariencia del botón */
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #7055a5;
+    color: white;
+    border: 1px solid #554080;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Cambia el color del botón al pasar el mouse */
+button:hover {
+    background-color: #554080;
+}
+
+/* Da espacio y forma a las cuatro cajas */
+#cajaLineal, #cajaAfin, #cajaConstante, #cajaSinFuncion {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+/* Caja de función lineal con tonos azules */
+#cajaLineal {
+    background-color: #dce8fa;
+    border: 2px solid #829bd1;
+    color: #344875;
+}
+
+/* Caja de función afín con tonos morados */
+#cajaAfin {
+    background-color: #e9ddfa;
+    border: 2px solid #a58acb;
+    color: #594078;
+}
+
+/* Caja de función constante con tonos celestes */
+#cajaConstante {
+    background-color: #dceefa;
+    border: 2px solid #82b5d1;
+    color: #345b75;
+}
+
+/* Caja de función constante nula con tonos violetas */
+#cajaSinFuncion {
+    background-color: #e8ddf5;
+    border: 2px solid #a58acb;
+    color: #594078;
+}
+
+/* Cambia el color de los títulos */
+h3 {
+    margin-top: 5px;
+    color: #514078;
+}
+
+/* Cambia el color del enlace de GeoGebra */
+a {
+    color: #7055a5;
+}
+
+/* Separa las secciones */
+hr {
+    margin-top: 15px;
+    border: 0;
+    border-top: 1px solid #c9c0df;
+}
+
+/* Define el espacio donde se carga GeoGebra */
+#geogebra {
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+}
+
+/* Centra el texto de la sección del gráfico */
+#estadoGrafico {
+    text-align: center;
+}

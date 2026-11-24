@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Permite mostrar correctamente los caracteres y las tildes -->
+    <meta charset="UTF-8">
+
+    <!-- Nombre que aparece en la pestaña del navegador -->
+    <title>Clasificador de funciones</title>
+
+    <!-- Conecta el archivo CSS para darle diseño a la página -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Título principal de la página -->
+    <h1>Clasificador de funciones</h1>
+
+    <!-- Contiene todos los elementos principales -->
+    <main>
+
+        <!-- Muestra los números generados por JavaScript -->
+        <p id="valorB">b = ?</p>
+        <p id="valorC">c = ?</p>
+
+        <!-- Botón que genera nuevos números -->
+        <button id="generar">Generar / Cambiar</button>
+
+        <!-- Caja donde aparecen las propiedades de la función lineal -->
+        <div id="cajaLineal">
+            <h3>LINEAL</h3>
+            <p id="propiedadesLineal">
+                Muestra las propiedades de la función lineal.
+            </p>
+        </div>
+
+        <!-- Caja donde aparecen las propiedades de la función afín -->
+        <div id="cajaAfin">
+            <h3>AFÍN</h3>
+            <p id="propiedadesAfin">
+                Muestra las propiedades de la función afín.
+            </p>
+        </div>
+
+        <!-- Caja donde aparecen las propiedades de la función constante -->
+        <div id="cajaConstante">
+            <h3>CONSTANTE</h3>
+            <p id="propiedadesConstante">
+                Muestra las propiedades de la función constante.
+            </p>
+        </div>
+
+        <!-- Caja que identifica la función constante nula -->
+        <div id="cajaSinFuncion">
+            <h3>SIN FUNCIÓN</h3>
+            <p id="propiedadesSinFuncion">
+                Esperando los valores.
+            </p>
+        </div>
+
+        <!-- Separa las secciones de la página -->
+        <hr>
+
+        <!-- Sección que contiene el gráfico -->
+        <h2>Gráfico de la función</h2>
+        <p id="estadoGrafico">
+            Genera los valores para mostrar el gráfico.
+        </p>
+
+        <!-- Espacio donde se carga GeoGebra -->
+        <div id="geogebra"></div>
+
+        <hr>
+
+        <!-- Enlace para abrir GeoGebra en otra pestaña -->
+        <p>
+            <strong>ENLACE:</strong>
+            <a href="https://www.geogebra.org/classic" target="_blank">
+                GeoGebra Clásico
+            </a>
+        </p>
+
+        <!-- Permite seleccionar archivos de GeoGebra -->
+        <input type="file" id="archivo" accept=".ggb">
+
+        <!-- Muestra el nombre del archivo seleccionado -->
+        <p id="nombreArchivo"></p>
+
+    </main>
+
+    <!-- Carga las herramientas necesarias para utilizar GeoGebra -->
+    <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+
+    <!-- Conecta el JavaScript que controla la página -->
+    <script src="script.js"></script>
+
+</body>
+</html>
